@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konstitusi dan Negara Indonesia</title>
+  <meta name="description" content="Makalah Konstitusi dan Negara Indonesia - Pendidikan Kewarganegaraan">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="reading-progress" id="progress"></div>
+
+  <header class="topbar">
+    <button class="menu-btn" id="menuBtn" aria-label="Buka menu">☰</button>
+    <div class="brand">
+      <span class="brand-mark">U</span>
+      <div><strong>MAKALAH</strong><small>Pendidikan Kewarganegaraan</small></div>
+    </div>
+    <div class="top-actions">
+      <button id="searchBtn" title="Cari">⌕</button>
+      <button id="printBtn" title="Cetak / Simpan PDF">⎙</button>
+      <button id="themeBtn" title="Mode tampilan">◐</button>
+    </div>
+  </header>
+
+  <div class="search-panel" id="searchPanel">
+    <input id="searchInput" type="search" placeholder="Cari kata dalam makalah..." autocomplete="off">
+    <span id="searchCount">0 hasil</span>
+  </div>
+
+  <div class="layout">
+    <aside class="sidebar" id="sidebar">
+      <div class="side-title">DAFTAR ISI</div>
+      <nav>
+        <a href="#cover">Sampul</a>
+        <a href="#pengantar">Kata Pengantar</a>
+        <a href="#daftar-isi">Daftar Isi</a>
+        <a href="#bab1">BAB I — Pendahuluan</a>
+        <a href="#latar-belakang">A. Latar Belakang</a>
+        <a href="#rumusan">B. Rumusan Masalah</a>
+        <a href="#tujuan">C. Tujuan Penulisan</a>
+        <a href="#bab2">BAB II — Pembahasan</a>
+        <a href="#pengertian">A. Pengertian Konstitusi</a>
+        <a href="#fungsi">B. Fungsi dan Tujuan Konstitusi</a>
+        <a href="#sejarah">C. Sejarah Perkembangan Konstitusi Indonesia</a>
+        <a href="#uud">D. UUD NRI Tahun 1945</a>
+        <a href="#amandemen">E. Perubahan/Amandemen UUD 1945</a>
+        <a href="#dampak">F. Dampak Perubahan UUD 1945</a>
+        <a href="#kehidupan">G. Konstitusi dan Kehidupan Berbangsa</a>
+        <a href="#bab3">BAB III — Penutup</a>
+        <a href="#kesimpulan">A. Kesimpulan</a>
+        <a href="#saran">B. Saran</a>
+        <a href="#pustaka">Daftar Pustaka</a>
+      </nav>
+    </aside>
+
+    <main class="content">
+      <section class="paper" id="cover">
+        <div class="cover">
+          <img src="logo.png" class="logo-universitas-tangerang-raya.png" alt="">
+         <div class="cover-logo">
+    <img
+        src="./logo-universitas-tangerang-raya.png"
+        alt="Logo Universitas Tangerang Raya"
+    >
+</div>
+
+<div class="cover-badge">
+    MAKALAH • 2026
+</div>
+          <div class="cover-line"></div>
+          <h1>KONSTITUSI<br><span>DAN NEGARA INDONESIA</span></h1>
+          <p class="subtitle">Pengertian Konstitusi, Sejarah Perkembangan Konstitusi Indonesia,<br>
+          UUD NRI Tahun 1945, serta Perubahan UUD 1945</p>
+          <div class="cover-ornament"><span>UUD</span></div>
+          <div class="identity">
+            <p>Disusun untuk Memenuhi Tugas Mata Kuliah<br><b>Pendidikan Kewarganegaraan</b></p>
+            <p>Dosen Pengampu<br><b> Bapak H. Yogi Anandia Pranata, S.Q.,S.Pd,M.Pd</b></p>
+            <div class="members">
+              <b>Disusun oleh Kelompok 3</b>
+              <span>Mohamad Beni <em>25130110169</em></span>
+              <span>Sandy Naufal <em>25130110181</em></span>
+              <span>Dinda Delvia Anasa <em>25130110037</em></span>
+            </div>
+          </div>
+          <footer class="cover-footer">
+            <b>PROGRAM STUDI TEKNIK INDUSTRI</b>
+            <span>FAKULTAS TEKNIK</span>
+            <span>UNIVERSITAS TANGERANG RAYA</span>
+            <strong>2026</strong>
+          </footer>
+        </div>
+      </section>
+
+      <section class="paper" id="pengantar">
+        <div class="section-label">01</div>
+        <h2>KATA PENGANTAR</h2>
+        <div class="divider"></div>
+        <p>Puji syukur ke hadirat Tuhan Yang Maha Esa atas rahmat dan karunia-Nya sehingga makalah yang berjudul <i>“Konstitusi dan Negara Indonesia”</i> ini dapat diselesaikan. Makalah ini disusun untuk memenuhi tugas mata kuliah Pendidikan Kewarganegaraan sekaligus sebagai sarana untuk memahami kedudukan konstitusi dalam kehidupan berbangsa dan bernegara.</p>
+        <p>Pembahasan dalam makalah ini meliputi pengertian dan fungsi konstitusi, sejarah perkembangan konstitusi Indonesia, kedudukan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 sebagai hukum dasar, serta proses dan substansi perubahan UUD 1945. Pembahasan disusun dengan mengacu pada sumber hukum, buku akademik, dan artikel jurnal yang relevan.</p>
+        <p>Penulis menyadari bahwa makalah ini masih memiliki kekurangan. Oleh karena itu, kritik dan saran yang membangun sangat diharapkan demi penyempurnaan makalah ini. Semoga makalah ini dapat memberikan manfaat dan menambah wawasan pembaca mengenai konstitusi serta kehidupan ketatanegaraan Indonesia.</p>
+        <p class="date">07 Oktober 2026</p>
+      </section>
+
+      <section class="paper" id="daftar-isi">
+        <div class="section-label">02</div>
+        <h2>DAFTAR ISI</h2>
+        <div class="divider"></div>
+        <div class="toc-grid">
+          <div><b>KATA PENGANTAR</b><span>i</span></div>
+          <div><b>DAFTAR ISI</b><span>ii</span></div>
+          <div class="toc-chapter"><b>BAB I PENDAHULUAN</b><span>1</span></div>
+          <div>A. Latar Belakang<span>1</span></div>
+          <div>B. Rumusan Masalah<span>2</span></div>
+          <div>C. Tujuan Penulisan<span>2</span></div>
+          <div class="toc-chapter"><b>BAB II PEMBAHASAN</b><span>3</span></div>
+          <div>A. Pengertian Konstitusi<span>3</span></div>
+          <div>B. Fungsi dan Tujuan Konstitusi<span>4</span></div>
+          <div>C. Sejarah Perkembangan Konstitusi Indonesia<span>5</span></div>
+          <div>D. UUD NRI Tahun 1945 sebagai Konstitusi Indonesia<span>7</span></div>
+          <div>E. Perubahan UUD 1945<span>9</span></div>
+          <div>F. Dampak Perubahan UUD 1945 terhadap Ketatanegaraan Indonesia<span>11</span></div>
+          <div>G. Konstitusi dan Kehidupan Berbangsa dan Bernegara<span>12</span></div>
+          <div class="toc-chapter"><b>BAB III PENUTUP</b><span>14</span></div>
+          <div>A. Kesimpulan<span>14</span></div>
+          <div>B. Saran<span>15</span></div>
+          <div><b>DAFTAR PUSTAKA</b><span>16</span></div>
+        </div>
+      </section>
+
+      <section class="paper" id="bab1">
+        <div class="chapter">
+          <span>BAB I</span><h2>PENDAHULUAN</h2>
+        </div>
+
+        <article id="latar-belakang">
+          <h3>A. Latar Belakang</h3>
+          <p>Konstitusi merupakan salah satu unsur penting dalam kehidupan suatu negara. Dalam pengertian yang luas, konstitusi tidak hanya berupa dokumen tertulis, tetapi mencakup seperangkat prinsip dan aturan dasar yang mengatur organisasi negara, pembagian kekuasaan, hubungan antarlembaga negara, serta hubungan negara dengan warga negara. Dalam negara hukum, konstitusi menjadi dasar bagi penyelenggaraan pemerintahan sekaligus instrumen untuk membatasi kekuasaan agar tidak dijalankan secara sewenang-wenang.</p>
+          <p>Bagi Indonesia, konstitusi yang berlaku saat ini adalah Undang-Undang Dasar Negara Republik Indonesia Tahun 1945 (UUD NRI Tahun 1945). UUD NRI Tahun 1945 mempunyai kedudukan fundamental karena menjadi hukum dasar dalam penyelenggaraan negara. Prinsip negara hukum, kedaulatan rakyat, pembagian kekuasaan, jaminan hak asasi manusia, dan tujuan negara memperoleh landasan konstitusional di dalamnya.</p>
+          <p>Perjalanan konstitusi Indonesia tidak berlangsung secara sederhana. Sejak kemerdekaan, Indonesia pernah menggunakan beberapa konstitusi, yaitu UUD 1945, Konstitusi Republik Indonesia Serikat 1949, Undang-Undang Dasar Sementara 1950, dan kembali menggunakan UUD 1945 setelah Dekrit Presiden 5 Juli 1959. Selanjutnya, UUD 1945 mengalami empat kali perubahan pada 1999–2002 sebagai bagian dari proses reformasi ketatanegaraan.</p>
+          <p>Perubahan tersebut membawa dampak besar terhadap sistem ketatanegaraan Indonesia, antara lain memperkuat prinsip kedaulatan rakyat, memperjelas pembagian kekuasaan, memperkuat mekanisme <i>checks and balances</i>, memperluas pengaturan hak asasi manusia, serta melahirkan lembaga-lembaga baru seperti Mahkamah Konstitusi dan Komisi Yudisial. Oleh karena itu, pemahaman terhadap konstitusi tidak hanya penting secara akademik, tetapi juga penting bagi setiap warga negara agar mampu memahami hak, kewajiban, dan tanggung jawabnya dalam kehidupan berbangsa dan bernegara.</p>
+        </article>
+
+        <article id="rumusan">
+          <h3>B. Rumusan Masalah</h3>
+          <ul>
+            <li>Apa yang dimaksud dengan konstitusi dan apa fungsi konstitusi bagi suatu negara?</li>
+            <li>Bagaimana sejarah perkembangan konstitusi di Indonesia?</li>
+            <li>Bagaimana kedudukan UUD NRI Tahun 1945 sebagai konstitusi Indonesia?</li>
+            <li>Bagaimana proses perubahan atau amandemen UUD 1945?</li>
+            <li>Apa dampak perubahan UUD 1945 terhadap sistem ketatanegaraan Indonesia?</li>
+          </ul>
+        </article>
+
+        <article id="tujuan">
+          <h3>C. Tujuan Penulisan</h3>
+          <ul>
+            <li>Menjelaskan pengertian dan fungsi konstitusi.</li>
+            <li>Menguraikan sejarah perkembangan konstitusi Indonesia.</li>
+            <li>Menjelaskan kedudukan UUD NRI Tahun 1945 sebagai hukum dasar negara.</li>
+            <li>Menjelaskan proses dan substansi perubahan UUD 1945.</li>
+            <li>Menganalisis pengaruh perubahan UUD 1945 terhadap kehidupan ketatanegaraan Indonesia.</li>
+          </ul>
+        </article>
+      </section>
+
+      <section class="paper" id="bab2">
+        <div class="chapter"><span>BAB II</span><h2>PEMBAHASAN</h2></div>
+
+        <article id="pengertian">
+          <h3>A. Pengertian Konstitusi</h3>
+          <p>Secara etimologis, istilah konstitusi berkaitan dengan kata <i>constitutio</i> yang dalam tradisi ketatanegaraan merujuk pada pembentukan atau penetapan aturan dasar. Dalam kajian hukum tata negara, konstitusi dipahami sebagai keseluruhan aturan dasar yang mengatur struktur negara, pembagian kekuasaan, hubungan antara lembaga negara, serta hubungan negara dengan warga negara. Konstitusi juga menjadi dasar legitimasi sekaligus pembatas kekuasaan pemerintahan.</p>
+          <p>Konstitusi dapat berbentuk tertulis maupun tidak tertulis. Konstitusi tertulis biasanya dituangkan dalam satu dokumen atau beberapa dokumen hukum dasar, sedangkan konstitusi tidak tertulis berkembang melalui kebiasaan ketatanegaraan, praktik pemerintahan, dan konvensi. Indonesia memiliki konstitusi tertulis berupa UUD NRI Tahun 1945 yang dilengkapi dengan berbagai peraturan perundang-undangan dan praktik ketatanegaraan.</p>
+          <p>Dengan demikian, konstitusi bukan sekadar kumpulan pasal yang mengatur lembaga negara. Konstitusi juga mengandung nilai dan prinsip dasar yang menjadi arah kehidupan bernegara. Karena itu, pelaksanaan pemerintahan harus selalu berada dalam kerangka konstitusi dan tidak boleh bertentangan dengan prinsip negara hukum dan demokrasi.</p>
+        </article>
+
+        <article id="fungsi">
+          <h3>B. Fungsi dan Tujuan Konstitusi</h3>
+          <p>Konstitusi memiliki beberapa fungsi utama. Pertama, konstitusi berfungsi sebagai hukum dasar yang menjadi landasan pembentukan dan pelaksanaan peraturan perundang-undangan. Kedua, konstitusi mengatur pembagian dan pembatasan kekuasaan negara. Ketiga, konstitusi memberikan jaminan terhadap hak-hak dasar warga negara. Keempat, konstitusi menjadi pedoman dalam penyelenggaraan pemerintahan. Kelima, konstitusi menjadi simbol dan kesepakatan dasar yang mempersatukan kehidupan berbangsa.</p>
+          <div class="highlight">
+            <strong>Inti fungsi konstitusi</strong>
+            <div class="cards">
+              <span>Hukum dasar</span><span>Pembatas kekuasaan</span><span>Jaminan hak</span><span>Pedoman pemerintahan</span><span>Pemersatu bangsa</span>
+            </div>
+          </div>
+          <p>Fungsi pembatasan kekuasaan sangat penting dalam negara demokrasi. Kekuasaan yang tidak dibatasi berpotensi menimbulkan penyalahgunaan wewenang. Karena itu, perubahan UUD 1945 memperkuat sistem <i>checks and balances</i> agar lembaga-lembaga negara dapat saling mengawasi sesuai kewenangannya.</p>
+          <p>Selain itu, konstitusi memiliki tujuan untuk mewujudkan kehidupan negara yang tertib, demokratis, berkeadilan, dan menjamin hak warga negara. Dalam konteks Indonesia, tujuan tersebut berkaitan erat dengan Pembukaan UUD NRI Tahun 1945 yang memuat tujuan negara, yaitu melindungi segenap bangsa Indonesia dan seluruh tumpah darah Indonesia, memajukan kesejahteraan umum, mencerdaskan kehidupan bangsa, serta ikut melaksanakan ketertiban dunia.</p>
+        </article>
+
+        <article id="sejarah">
+          <h3>C. Sejarah Perkembangan Konstitusi Indonesia</h3>
+          <p>Sejarah konstitusi Indonesia mengalami beberapa tahap. Setelah Proklamasi Kemerdekaan 17 Agustus 1945, UUD 1945 disahkan pada 18 Agustus 1945 sebagai konstitusi negara. Dalam perkembangannya, perubahan bentuk negara dan situasi politik menyebabkan Indonesia menggunakan Konstitusi RIS 1949. Setelah bentuk negara kembali menjadi kesatuan, digunakan UUD Sementara 1950.</p>
+          <p>Melalui Dekrit Presiden 5 Juli 1959, Indonesia kembali menggunakan UUD 1945. Konstitusi tersebut kemudian berlaku dalam berbagai periode politik hingga masa Reformasi. Pada masa Reformasi, tuntutan perubahan ketatanegaraan mendorong MPR melakukan perubahan terhadap UUD 1945 sebanyak empat kali, yaitu pada 1999, 2000, 2001, dan 2002.</p>
+          <p>Rangkaian perubahan tersebut menunjukkan bahwa konstitusi dapat berkembang mengikuti kebutuhan masyarakat dan negara, tetapi perubahan tetap harus dilakukan melalui mekanisme konstitusional. Dalam Pasal 37 UUD NRI Tahun 1945 diatur prosedur perubahan UUD, dan bentuk Negara Kesatuan Republik Indonesia secara tegas tidak dapat diubah.</p>
+          <div class="table-wrap">
+            <table>
+              <thead><tr><th>Periode</th><th>Konstitusi</th><th>Keterangan Singkat</th></tr></thead>
+              <tbody>
+                <tr><td>1945–1949</td><td>UUD 1945</td><td>Konstitusi awal setelah Proklamasi.</td></tr>
+                <tr><td>1949–1950</td><td>Konstitusi RIS 1949</td><td>Berlaku ketika Indonesia berbentuk Republik Indonesia Serikat.</td></tr>
+                <tr><td>1950–1959</td><td>UUDS 1950</td><td>Indonesia kembali menjadi negara kesatuan dengan sistem parlementer.</td></tr>
+                <tr><td>1959–1999</td><td>UUD 1945</td><td>Berlaku kembali berdasarkan Dekrit Presiden 5 Juli 1959.</td></tr>
+                <tr><td>1999–2002</td><td>UUD 1945 hasil perubahan</td><td>Dilakukan empat kali perubahan oleh MPR.</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </article>
+
+        <article id="uud">
+          <h3>D. UUD NRI Tahun 1945 sebagai Konstitusi Indonesia</h3>
+          <p>UUD NRI Tahun 1945 merupakan hukum dasar tertulis yang menjadi landasan utama dalam penyelenggaraan negara Indonesia. Pembukaan UUD NRI Tahun 1945 memuat Pancasila sebagai dasar negara sekaligus tujuan nasional. Batang tubuh UUD mengatur prinsip-prinsip penyelenggaraan negara, lembaga negara, hak dan kewajiban warga negara, serta berbagai bidang kehidupan yang menjadi tanggung jawab negara.</p>
+          <p>Pasal 1 UUD NRI Tahun 1945 menegaskan bahwa Indonesia adalah negara kesatuan yang berbentuk republik, kedaulatan berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar, serta Indonesia adalah negara hukum. Ketentuan ini memperlihatkan bahwa kehidupan ketatanegaraan Indonesia harus berlandaskan konstitusi dan prinsip kedaulatan rakyat.</p>
+          <p>Setelah perubahan, kedudukan lembaga negara tidak lagi didasarkan pada konsep lembaga tertinggi negara sebagaimana praktik sebelumnya. Sistem ketatanegaraan bergerak menuju pembagian kekuasaan yang lebih seimbang dan mekanisme saling mengawasi. Perubahan tersebut juga memperkuat kekuasaan kehakiman dan memperkenalkan Mahkamah Konstitusi sebagai salah satu pelaksana kekuasaan kehakiman.</p>
+        </article>
+
+        <article id="amandemen">
+          <h3>E. Perubahan/Amandemen UUD 1945</h3>
+          <p>Perubahan UUD 1945 pada era Reformasi merupakan proses penting dalam pembaruan ketatanegaraan Indonesia. Perubahan dilakukan oleh MPR melalui empat tahap. Secara umum, perubahan tersebut bertujuan memperbaiki kelemahan pengaturan ketatanegaraan, memperkuat demokrasi, memperjelas pembagian kekuasaan, serta memberikan jaminan yang lebih kuat terhadap hak asasi manusia.</p>
+          <div class="timeline">
+            <div><b>1999</b><span>Perubahan Pertama</span><p>Pembatasan masa jabatan Presiden dan penguatan fungsi legislasi DPR.</p></div>
+            <div><b>2000</b><span>Perubahan Kedua</span><p>Pengaturan HAM, pemerintahan daerah, wilayah negara, pertahanan dan keamanan, serta simbol negara.</p></div>
+            <div><b>2001</b><span>Perubahan Ketiga</span><p>Pemilihan Presiden langsung, DPD, Mahkamah Konstitusi, Komisi Yudisial, dan prinsip kedaulatan rakyat.</p></div>
+            <div><b>2002</b><span>Perubahan Keempat</span><p>Ketentuan pendidikan, perekonomian, kesejahteraan sosial, serta ketentuan peralihan dan tambahan.</p></div>
+          </div>
+          <p>Perubahan UUD 1945 bukan berarti mengganti seluruh konstitusi. Pembukaan UUD 1945 tetap dipertahankan, dan terdapat kesepakatan dasar untuk tidak mengubah Pembukaan, mempertahankan Negara Kesatuan Republik Indonesia, mempertegas sistem pemerintahan presidensial, serta melakukan perubahan dengan cara adendum.</p>
+        </article>
+
+        <article id="dampak">
+          <h3>F. Dampak Perubahan UUD 1945 terhadap Ketatanegaraan Indonesia</h3>
+          <p>Perubahan UUD 1945 menghasilkan perubahan mendasar dalam sistem ketatanegaraan. Salah satu perubahan penting adalah penguatan prinsip <i>checks and balances</i>. Kekuasaan negara tidak lagi terkonsentrasi pada satu lembaga, melainkan dibagi dan dijalankan oleh lembaga-lembaga negara sesuai kewenangannya.</p>
+          <p>Dalam bidang kedaulatan rakyat, Pasal 1 ayat (2) mengalami perubahan. Kedaulatan tidak lagi dirumuskan sebagai sesuatu yang dilaksanakan sepenuhnya oleh MPR, tetapi berada di tangan rakyat dan dilaksanakan menurut Undang-Undang Dasar. Perubahan ini memperkuat prinsip bahwa seluruh lembaga negara memperoleh legitimasi dan kewenangan berdasarkan konstitusi.</p>
+          <p>Dalam bidang kekuasaan kehakiman, perubahan UUD 1945 memperkuat independensi kekuasaan kehakiman dan membentuk Mahkamah Konstitusi. Salah satu peran penting Mahkamah Konstitusi adalah menguji undang-undang terhadap UUD NRI Tahun 1945, sehingga konstitusi dapat berfungsi secara nyata sebagai hukum tertinggi dalam sistem hukum Indonesia.</p>
+          <p>Perubahan juga memperluas pengaturan hak asasi manusia dalam Bab XA UUD NRI Tahun 1945. Dengan demikian, perlindungan hak warga negara memperoleh dasar konstitusional yang lebih lengkap. Di sisi lain, pelaksanaan hak tetap disertai kewajiban untuk menghormati hak orang lain dan tunduk pada pembatasan yang ditetapkan oleh undang-undang sesuai ketentuan konstitusi.</p>
+        </article>
+
+        <article id="kehidupan">
+          <h3>G. Konstitusi dan Kehidupan Berbangsa dan Bernegara</h3>
+          <p>Konstitusi memiliki hubungan langsung dengan kehidupan sehari-hari warga negara. Prinsip persamaan di hadapan hukum, kebebasan berpendapat, hak memperoleh pendidikan, hak atas pekerjaan dan penghidupan yang layak, serta hak untuk berpartisipasi dalam pemerintahan memiliki dasar konstitusional. Karena itu, memahami konstitusi membantu warga negara menggunakan haknya secara bertanggung jawab.</p>
+          <p>Konstitusi juga menjadi pedoman bagi pemerintah dalam menjalankan kekuasaan. Setiap kebijakan publik harus mempunyai dasar hukum dan tidak boleh bertentangan dengan UUD NRI Tahun 1945. Dalam negara hukum, baik pemerintah maupun warga negara memiliki kedudukan yang sama-sama terikat pada hukum.</p>
+          <p>Bagi generasi muda, pemahaman konstitusi penting untuk membangun sikap demokratis, kritis, toleran, dan bertanggung jawab. Konstitusi tidak cukup dipahami sebagai materi hafalan, tetapi perlu diwujudkan dalam perilaku, misalnya menghormati hukum, menghargai hak orang lain, menyelesaikan perbedaan melalui musyawarah, serta berpartisipasi secara positif dalam kehidupan masyarakat dan negara.</p>
+        </article>
+      </section>
+
+      <section class="paper" id="bab3">
+        <div class="chapter"><span>BAB III</span><h2>PENUTUP</h2></div>
+        <article id="kesimpulan">
+          <h3>A. Kesimpulan</h3>
+          <p>Konstitusi merupakan hukum dasar yang mengatur prinsip-prinsip fundamental kehidupan negara, termasuk struktur lembaga negara, pembagian kekuasaan, hubungan negara dengan warga negara, serta jaminan hak-hak dasar. Dalam konteks Indonesia, UUD NRI Tahun 1945 merupakan konstitusi tertulis yang menjadi dasar penyelenggaraan negara.</p>
+          <p>Sejarah konstitusi Indonesia menunjukkan adanya beberapa fase, mulai dari UUD 1945, Konstitusi RIS 1949, UUDS 1950, kembali ke UUD 1945 pada 1959, hingga perubahan UUD 1945 pada masa Reformasi. Empat kali perubahan UUD 1945 pada 1999–2002 membawa pembaruan penting dalam sistem ketatanegaraan, antara lain penguatan demokrasi, pembatasan kekuasaan, perlindungan hak asasi manusia, dan pembentukan lembaga-lembaga negara baru.</p>
+          <p>Perubahan UUD 1945 pada akhirnya memperkuat prinsip negara hukum dan <i>checks and balances</i>. Konstitusi harus dipahami dan dilaksanakan oleh seluruh penyelenggara negara maupun warga negara agar kehidupan berbangsa dan bernegara berjalan berdasarkan hukum, demokrasi, keadilan, dan penghormatan terhadap hak asasi manusia.</p>
+        </article>
+        <article id="saran">
+          <h3>B. Saran</h3>
+          <p>Mahasiswa dan masyarakat perlu meningkatkan pemahaman mengenai konstitusi melalui pembelajaran Pendidikan Kewarganegaraan, membaca sumber hukum dan akademik yang kredibel, serta mengikuti perkembangan ketatanegaraan Indonesia. Penyelenggara negara juga harus menjadikan UUD NRI Tahun 1945 sebagai pedoman utama dalam menjalankan kewenangannya. Dengan pemahaman dan pelaksanaan konstitusi yang baik, kehidupan demokrasi dan negara hukum di Indonesia dapat terus diperkuat.</p>
+        </article>
+      </section>
+
+      <section class="paper" id="pustaka">
+        <div class="section-label">REFERENSI</div>
+        <h2>DAFTAR PUSTAKA</h2>
+        <div class="divider"></div>
+        <ol class="references">
+          <li>Asshiddiqie, Jimly. <i>Konstitusi dan Konstitusionalisme Indonesia.</i> Jakarta: Sinar Grafika, 2010.</li>
+          <li>Atmadja, I Dewa Gede. <i>Hukum Konstitusi: Problematika Konstitusi Indonesia Sesudah Perubahan UUD 1945.</i> Malang: Setara Press, 2012.</li>
+          <li>Direktorat Jenderal Pembelajaran dan Kemahasiswaan. <i>Pendidikan Kewarganegaraan.</i> Jakarta: Kementerian Riset, Teknologi, dan Pendidikan Tinggi, 2016.</li>
+          <li>Fahmi, Khairul. “Prinsip Kedaulatan Rakyat dalam Penentuan Sistem Pemilihan Umum Anggota Legislatif.” <i>Jurnal Konstitusi</i> 7, no. 3 (2010).</li>
+          <li>Fatlolon, Costantinus. “Evaluasi Proses Amendemen Undang-Undang Dasar Tahun 1945: Perspektif Habermasian.” <i>Jurnal Konstitusi</i> 20, no. 1 (2023).</li>
+          <li>Manan, Bagir. <i>Perubahan UUD 1945.</i> Depok: RajaGrafindo Persada, 2024.</li>
+          <li>Mahkamah Konstitusi Republik Indonesia. <i>Naskah Komprehensif Perubahan Undang-Undang Dasar Negara Republik Indonesia Tahun 1945: Latar Belakang, Proses, dan Hasil Pembahasan 1999–2002.</i> Jakarta: Sekretariat Jenderal dan Kepaniteraan MKRI, 2010.</li>
+          <li>Prayitno, Cipto. “Pembatasan Perubahan Bentuk Negara Kesatuan dalam Undang-Undang Dasar 1945 dalam Perspektif Constitution Making.” <i>Jurnal Konstitusi</i> 15, no. 4 (2018).</li>
+          <li>Siahaan, Maruarar. “Uji Konstitusionalitas Peraturan Perundang-Undangan Negara Kita: Masalah dan Tantangan.” <i>Jurnal Konstitusi</i> 7, no. 4 (2010).</li>
+          <li>Undang-Undang Dasar Negara Republik Indonesia Tahun 1945.</li>
+        </ol>
+        <div class="online-sources">
+          <h3>Sumber Daring</h3>
+          <p>Mahkamah Konstitusi Republik Indonesia — Jurnal Konstitusi: <a href="https://jurnalkonstitusi.mkri.id/" target="_blank" rel="noopener">jurnalkonstitusi.mkri.id</a></p>
+          <p>Mahkamah Konstitusi Republik Indonesia — Perpustakaan MKRI: <a href="https://simpus.mkri.id/" target="_blank" rel="noopener">simpus.mkri.id</a></p>
+          <p>Mahkamah Konstitusi Republik Indonesia: <a href="https://www.mkri.id/" target="_blank" rel="noopener">mkri.id</a></p>
+        </div>
+      </section>
+
+      <footer class="site-footer">
+        <b>KONSTITUSI DAN NEGARA INDONESIA</b>
+        <span>Kelompok 3 • Universitas Tangerang Raya • 2026</span>
+      </footer>
+    </main>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
